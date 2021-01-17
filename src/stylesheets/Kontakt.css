@@ -1,0 +1,137 @@
+nav     {                    
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  position: fixed;
+  top: 0;
+  width: 200%;
+  z-index: 1;
+  display: inline-block;      
+  border-right: 1px solid;
+}                              
+ul {
+  margin: 0;
+  padding: 0;
+} 
+nav ul li {
+  float: left;
+  position: relative;
+  width: 630px;
+}
+nav ul li a {          
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: black;
+  margin: 0 1px 0 0;
+  transition: 300ms all;  
+}
+nav ul li a:hover {
+  background-color:goldenrod;
+  height: 30px;
+}                  
+nav ul li ul{
+  display: none;    
+}
+nav ul li:hover ul{
+  display: block;    
+}
+body {
+  background-color: teal;
+  line-height: 2em;
+}
+u {
+  font-size: 20px;
+}
+nav ul li {
+  list-style-type: none;    
+  position: relative;
+}
+nav ul li ul li a:hover {
+  background-color: goldenrod ;    
+}
+input {
+  width: 40%;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  top: 100;
+  width: 100%;
+  position: relative;
+  text-decoration: underline;
+  padding-top: 130px;
+}
+p  {
+  text-align: justify;
+  color: white;
+  padding: 150px;
+  margin: 100px; 
+  font-size: 20px;
+}
+form {
+     padding: 150px;
+     margin: 100px;
+}
+
+label {
+  color: white;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  top: 100;
+  width: 100%;
+  position: relative;
+  text-decoration: underline;
+  padding-top: 130px;
+}
+#Erreichbarkeitsinfo {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+#Erreichbarkeitsinfo td, #Erreichbarkeitsinfo th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#Erreichbarkeitsinfo tr:nth-child(even){
+                               background-color: white;
+}
+
+#Erreichbarkeitsinfo tr:hover {
+  background-color: grey;
+}
+
+#Erreichbarkeitsinfo th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+div {
+  border: 1px solid;
+  overflow: auto;
+}
+
+a {
+  color: gold;
+}
+
+
+
+
+
+
